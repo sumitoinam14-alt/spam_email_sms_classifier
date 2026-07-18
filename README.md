@@ -1,1 +1,65 @@
+# Spam Email Detection using Machine Learning
 
+## Overview
+This project is a Machine Learning application that classifies SMS or email messages as **Spam** or **Not Spam (Ham)**. The model is trained using a labeled dataset and predicts whether a message is spam based on its content.
+
+## Features
+- Detects spam messages
+- User-friendly web interface using Streamlit
+- Machine Learning-based prediction
+- Fast and easy to use
+
+## Technologies Used
+- Python
+- Pandas
+- Scikit-learn
+- Streamlit
+- Pickle
+
+## Dataset
+The project uses the `spam.csv` dataset containing labeled spam and ham messages.
+
+## Project Structure
+```
+Spam-Email-Detection/
+│── app.py
+│── train_model.py
+│── spam.csv
+│── model.pkl
+│── vectorizer.pkl
+│── requirements.txt
+│── README.md
+```
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/sumitoinam14-alt/spam_email_sms_classifier.git
+```
+
+2. Open the project folder:
+```bash
+cd YOUR_REPOSITORY
+```
+
+3. Install the required packages:
+```bash
+pip install -r requirements.txt
+```
+
+4. Run the application:
+```bash
+streamlit run app.py
+```
+
+## Output
+- Enter a message in the text box.
+- Click **Predict**.
+- The application will display whether the message is **Spam** or **Not Spam**.
+
+## Author
+
+**Sumit Oinam**  
+B.Tech CSE (5th Semester)  
+Roll No: 242025033
