@@ -2,7 +2,7 @@
 A Machine Learning project that classifies SMS messages as Spam or Ham using Python, Scikit-learn, and Streamlit.
 
 ## Overview
-This project is a Machine Learning application that classifies SMS or email messages as **Spam** or **Not Spam (Ham)**. The model is trained using a labeled dataset and predicts whether a message is spam based on its content.
+This project is a Machine Learning application that classifies SMS or email messages as **Spam** or **Not Spam**. The model is trained using a labeled dataset and predicts whether a message is spam based on its content.
 
 ## Features
 - Detects spam messages
