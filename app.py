@@ -9,11 +9,11 @@ st.set_page_config(
 )
 
 # Load model
-with open("model/model.pkl", "rb") as model_file:
+with open("model.pkl", "rb") as model_file:
     model = pickle.load(model_file)
 
 # Load vectorizer
-with open("model/vectorizer.pkl", "rb") as vectorizer_file:
+with open("vectorizer.pkl", "rb") as vectorizer_file:
     vectorizer = pickle.load(vectorizer_file)
 
 # Title
