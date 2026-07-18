@@ -1,4 +1,5 @@
-# Spam Email Detection using Machine Learning
+# Spam Email SMS Classifier using Machine Learning
+A Machine Learning project that classifies SMS messages as Spam or Ham using Python, Scikit-learn, and Streamlit.
 
 ## Overview
 This project is a Machine Learning application that classifies SMS or email messages as **Spam** or **Not Spam (Ham)**. The model is trained using a labeled dataset and predicts whether a message is spam based on its content.
@@ -21,7 +22,7 @@ The project uses the `spam.csv` dataset containing labeled spam and ham messages
 
 ## Project Structure
 ```
-Spam-Email-Detection/
+spam_email_sms_classifier/
 │── app.py
 │── train_model.py
 │── spam.csv
@@ -29,6 +30,7 @@ Spam-Email-Detection/
 │── vectorizer.pkl
 │── requirements.txt
 │── README.md
+│── Project_Report.pdf
 ```
 
 ## Installation
@@ -63,3 +65,7 @@ streamlit run app.py
 **Sumit Oinam**  
 B.Tech CSE (5th Semester)  
 Roll No: 242025033
+
+## License
+
+This project is created for educational purposes.
