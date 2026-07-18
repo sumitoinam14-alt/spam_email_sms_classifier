@@ -40,7 +40,7 @@ git clone https://github.com/sumitoinam14-alt/spam_email_sms_classifier.git
 
 2. Open the project folder:
 ```bash
-cd YOUR_REPOSITORY
+cd spam_email_sms_classifier
 ```
 
 3. Install the required packages:
